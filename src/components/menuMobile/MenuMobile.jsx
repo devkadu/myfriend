@@ -1,17 +1,16 @@
-import React from "react";
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { ContainerMenuMobile } from "./style,";
+import React from 'react';
+import { HiOutlineMenuAlt3 } from 'react-icons/hi';
+import { ContainerMenuMobile } from './style,';
 
-const MenuMobile = () => {
+function MenuMobile() {
+  return (
+    <ContainerMenuMobile>
+      <HiOutlineMenuAlt3
+        size={25}
+      />
+    </ContainerMenuMobile>
 
-    return (
-        <ContainerMenuMobile>
-            <HiOutlineMenuAlt3 
-            size={25}
-            />
-            </ContainerMenuMobile>
-    
-    )
-};
+  );
+}
 
 export default MenuMobile;
