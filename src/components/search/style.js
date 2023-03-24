@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const ContainerSearch = styled.div`
+background-color: white;
+gap: 10px;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px 0px 20px;

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ContaineravatarIcon = styled.div`
-border: 1px solid #e6e6e6;
 margin-left: 20px;
 display: flex;
+align-items: center;;
 gap: 0.5rem;
 
 

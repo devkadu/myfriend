@@ -15,6 +15,7 @@ export const Header = styled.div`
   width: 80%;
   height: 10%;
   padding-right: 50px;
+  margin-top: 25px;
 
   @media (max-width: 768px) {
     display: flex;
@@ -35,8 +36,10 @@ export const ContainerView = styled.div`
 
 export const ContainerViewInfo = styled.div`
   background-color: aliceblue;
-  border: 1px solid black;
+  border-radius: 8px;
   width: 80%;
+  height: 97.5%;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
